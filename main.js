@@ -10,7 +10,7 @@ var path = require("path");
 var bodyParser = require("body-parser");
 var app = express();
 
-app.listen(8080, () => console.info('App running at http://localhost:8080'));
+app.listen(8080, () => console.info('App running at  https://davidmakate.github.io/a1/'));
 
 app.get('/', (request, response) => response.sendFile(__dirname + 
 '/index.html'));
